@@ -1,0 +1,2 @@
+/usr/local/bin/llvm-ar qc ../../lib/libANSI-ESCAPE-CODES-STATIC.a "CMakeFiles/ANSI-ESCAPE-CODES-STATIC.dir/src/ansi_codes.cpp.o"
+/usr/local/bin/llvm-ranlib ../../lib/libANSI-ESCAPE-CODES-STATIC.a

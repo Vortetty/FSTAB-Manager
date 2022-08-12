@@ -1,0 +1,243 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "cmake_libs/simple_table",
+					"jsonFile" : "directory-cmake_libs.simple_table-Debug-be09428db705caed3b69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake_libs/simple_table",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "cmake_libs/term_color",
+					"jsonFile" : "directory-cmake_libs.term_color-Debug-fe18365bec338a4252f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake_libs/term_color",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "cmake_libs/escape_codes",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-cmake_libs.escape_codes-Debug-65a0650abcc59d88a2b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "cmake_libs/escape_codes",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "cmake_libs/escape_codes/fmt",
+					"jsonFile" : "directory-cmake_libs.escape_codes.fmt-Debug-a3b1ff0f948ec970e859.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "cmake_libs/escape_codes/fmt",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FSTAB-Manager",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SIMPLE-TABLE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "TERM-COLORS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ANSI-ESCAPE-CODES",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "FMT",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ANSI-ESCAPE-CODES::@28dfb57e59612f05dfab",
+					"jsonFile" : "target-ANSI-ESCAPE-CODES-Debug-a8919a0fb23c3e826b99.json",
+					"name" : "ANSI-ESCAPE-CODES",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ANSI-ESCAPE-CODES-STATIC::@28dfb57e59612f05dfab",
+					"jsonFile" : "target-ANSI-ESCAPE-CODES-STATIC-Debug-9013549396520d3c51f4.json",
+					"name" : "ANSI-ESCAPE-CODES-STATIC",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FSTAB-Manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FSTAB-Manager-Debug-c1ccd941b5558d0fd75f.json",
+					"name" : "FSTAB-Manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SIMPLE-TABLE::@10e04271737ce857ef1c",
+					"jsonFile" : "target-SIMPLE-TABLE-Debug-711b75dc9a05e47680ea.json",
+					"name" : "SIMPLE-TABLE",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SIMPLE-TABLE-STATIC::@10e04271737ce857ef1c",
+					"jsonFile" : "target-SIMPLE-TABLE-STATIC-Debug-4cf9e79b12668c1bfbe4.json",
+					"name" : "SIMPLE-TABLE-STATIC",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TERM-COLOR::@b88069c6f1220aa109b4",
+					"jsonFile" : "target-TERM-COLOR-Debug-7754f1206a3dd7d0d58c.json",
+					"name" : "TERM-COLOR",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TERM-COLOR-STATIC::@b88069c6f1220aa109b4",
+					"jsonFile" : "target-TERM-COLOR-STATIC-Debug-7a370ae8b09181dc5254.json",
+					"name" : "TERM-COLOR-STATIC",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fmt::@a7b32db0278ee5a1b815",
+					"jsonFile" : "target-fmt-Debug-3f44c62a2a3c7940b82b.json",
+					"name" : "fmt",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ortettyv/dev/fstab_manager/build",
+		"source" : "/home/ortettyv/dev/fstab_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
