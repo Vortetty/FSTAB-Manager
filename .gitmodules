@@ -1,0 +1,11 @@
+[submodule "cpp_ansi_escape_lib"]
+	path = cmake_libs/escape_codes
+	url = https://github.com/Vortetty/cpp_ansi_escape_lib
+
+[submodule "cpp_simple_table_lib"]
+	path = cmake_libs/simple_table
+	url = https://github.com/Vortetty/cpp_simple_table_lib
+
+[submodule "cpp_terminal_color_lib"]
+	path = cmake_libs/term_color
+	url = https://github.com/Vortetty/cpp_terminal_color_lib
