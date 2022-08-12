@@ -1,1 +1,0 @@
-/usr/local/bin/clang++ -g -rdynamic "CMakeFiles/FSTAB-Manager.dir/src/main.cpp.o" -o bin/FSTAB-Manager   -L/home/ortettyv/dev/fstab_manager/build/lib  -Wl,-rpath,/home/ortettyv/dev/fstab_manager/build/lib lib/libSIMPLE-TABLE-STATIC.a lib/libTERM-COLOR-STATIC.a lib/libANSI-ESCAPE-CODES-STATIC.a cmake_libs/escape_codes/fmt/libfmtd.a 

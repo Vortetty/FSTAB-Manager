@@ -1,2 +1,0 @@
-/usr/local/bin/llvm-ar qc ../../lib/libTERM-COLOR-STATIC.a "CMakeFiles/TERM-COLOR-STATIC.dir/src/color.cpp.o"
-/usr/local/bin/llvm-ranlib ../../lib/libTERM-COLOR-STATIC.a

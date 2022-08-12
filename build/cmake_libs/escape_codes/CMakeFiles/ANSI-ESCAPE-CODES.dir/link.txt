@@ -1,2 +1,0 @@
-/usr/local/bin/llvm-ar qc ../../lib/libANSI-ESCAPE-CODES.a "CMakeFiles/ANSI-ESCAPE-CODES.dir/src/ansi_codes.cpp.o"
-/usr/local/bin/llvm-ranlib ../../lib/libANSI-ESCAPE-CODES.a

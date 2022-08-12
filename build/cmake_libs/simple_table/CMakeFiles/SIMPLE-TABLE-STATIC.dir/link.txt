@@ -1,2 +1,0 @@
-/usr/local/bin/llvm-ar qc ../../lib/libSIMPLE-TABLE-STATIC.a "CMakeFiles/SIMPLE-TABLE-STATIC.dir/src/table.cpp.o"
-/usr/local/bin/llvm-ranlib ../../lib/libSIMPLE-TABLE-STATIC.a
